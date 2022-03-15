@@ -27,25 +27,25 @@ bot = Client('Droplink bot',
 @bot.on_message(filters.command('start') & filters.private)
 async def start(bot, message):
     await message.reply(
-        f"**Hi {message.chat.first_name}!**\n\n"
-        "I'm Du-link bot. Just send me link and get short link")
+        f"**Hi {message.chat.first_name}⚡**\n"
+        "**🤖I Am (Not At All 😏) Simple Bot \n🔀 I can Convert Your Links To Du-link \n📁 Send ME Image or Text_Message \n🔃 Convert All Links To Your Links \n👨🏻‍💻 I Was Developed  @Half_Intelegent_2 \n©️ Powered By @DuLinkUpdate**")
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hello, {message.chat.first_name}!**\n\n"
-        "**If you send post which had Links, texts & images... Than I'll convert & replace all links with your links \nMessage me @kamdev07 For more help-**")
+        "**If you send post which had Links, texts & images... Than I'll convert & replace all links with your links \nMessage me  @Half_Intelegent_2 For more help-**")
 
 @bot.on_message(filters.command('support') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hey, {message.chat.first_name}!**\n\n"
-        "**please contact me on @kamdev07 or for more join @pdisk_Admins**")
+        "**please contact me @Half_Intelegent_2 **")
     
 @bot.on_message(filters.text & filters.private)
 async def pdisk_uploader(bot, message):
     new_string = str(message.text)
-    conv = await message.reply("Converting...")
+    conv = await message.reply("Converting your link to du-link...")
     dele = conv["message_id"]
     try:
         pdisk_link = await multi_pdisk_up(new_string)
@@ -58,7 +58,7 @@ async def pdisk_uploader(bot, message):
 @bot.on_message(filters.photo & filters.private)
 async def pdisk_uploader(bot, message):
     new_string = str(message.caption)
-    conv = await message.reply("Converting...")
+    conv = await message.reply("Converting your link to du-link...")
     dele = conv["message_id"]
     try:
         pdisk_link = await multi_pdisk_up(new_string)
