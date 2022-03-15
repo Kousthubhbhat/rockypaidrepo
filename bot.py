@@ -28,7 +28,7 @@ bot = Client('Droplink bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}!**\n\n"
-        "I'm Droplink bot. Just send me link and get short link")
+        "I'm Du-link bot. Just send me link and get short link")
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
@@ -79,7 +79,7 @@ async def pdisk_up(link):
         async with aiohttp.ClientSession() as session:
             async with session.get(url, params=params, raise_for_status=True) as response:
                 data = await response.json()
-                v_url =  """____ - """ + data["shortenedUrl"] + """\n"""
+                v_url =  """__**__ - """ + data["shortenedUrl"] + """**"""
     else:
         v_url = link
         
