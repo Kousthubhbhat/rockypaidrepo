@@ -41,6 +41,12 @@ async def start(bot, message):
     await message.reply(
         f"**Hey, {message.chat.first_name}!**\n\n"
         "**please contact me @Half_Intelligent_2**")
+
+@bot.on_message(filters.command('plans') & filters.private)
+async def start(bot, message):
+    await message.reply(
+        f"**Hey, {message.chat.first_name}!**\n\n"
+        "**Our Plans just like this 💰 \n\n For 30 Dayes = 2$ \nFor 90 Dayes= 5$ \nFor 180 Dayes = 8$ \nFor 365 Dayes = 15$**")
     
 @bot.on_message(filters.text & filters.private)
 async def pdisk_uploader(bot, message):
