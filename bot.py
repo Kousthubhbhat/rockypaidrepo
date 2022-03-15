@@ -73,7 +73,7 @@ async def pdisk_uploader(bot, message):
     
 async def pdisk_up(link):
     if ('mega' in link or 'google' in link or 'mdisk' in link or 'entertainvideo' in link or 'dood' in link or 'bit' in link ):
-        url = 'https://droplink.co/api'
+        url = 'https://du-link.in/api'
         params = {'api': API_KEY, 'url': link}
     
         async with aiohttp.ClientSession() as session:
