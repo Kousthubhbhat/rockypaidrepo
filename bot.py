@@ -130,7 +130,7 @@ async def addFooter(str):
     footer = """\n__➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖__
 🔅How to Download -""" + HOWTO + """\n
 📣 Provide By @"""+ CHANNEL + """
-__🔊For all  Direct Comics folder lifetime Membership msg me on @Kamdev07 or Join- @vip_comics__"""
+__.__"""
 
     return str + footer
         
