@@ -40,7 +40,7 @@ async def start(bot, message):
 async def start(bot, message):
     await message.reply(
         f"**Hey, {message.chat.first_name}!**\n\n"
-        "**please contact me @Half_Intelligent_2**")
+        "**please contact 🤗\n@Y76D42 | @Gaurav4x**")
 
 @bot.on_message(filters.command('plans') & filters.private)
 async def start(bot, message):
