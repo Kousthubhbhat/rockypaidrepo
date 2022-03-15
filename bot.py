@@ -128,9 +128,8 @@ async def remove_username(new_List):
   
 async def addFooter(str):
     footer = """\n__➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖__
-🔅How to Download -""" + HOWTO + """\n
-📣 Provide By @"""+ CHANNEL + """
-__.__"""
+📣Its A Oficial Bot OF @"""+ CHANNEL + """
+____"""
 
     return str + footer
         
