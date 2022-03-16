@@ -78,7 +78,7 @@ async def pdisk_uploader(bot, message):
         await message.reply(f'Error: {e}', quote=True)
     
 async def pdisk_up(link):
-    if ('mega' in link or 'google' in link or 'mdisk' in link or 'entertainvideo' in link or 'dood' in link or 'bit' in link or 'mediafire' in link or 'www.shadowave' in link ):
+    if ('mega' in link or 'google' in link or 'mdisk' in link or 'entertainvideo' in link or 'dood' in link or 'bit' in link or 'mediafire' in link or 'shadowave' in link ):
         url = 'https://du-link.in/api'
         params = {'api': API_KEY, 'url': link}
     
