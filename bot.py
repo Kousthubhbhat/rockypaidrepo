@@ -133,7 +133,7 @@ async def remove_username(new_List):
     return new_List
   
 async def addFooter(str):
-    footer = """\n__➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖__
+    footer = """\n__▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬__
 📣Its A Oficial Bot OF @"""+ CHANNEL + """
 ____"""
 
