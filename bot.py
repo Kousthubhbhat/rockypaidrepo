@@ -28,7 +28,7 @@ bot = Client('Droplink bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}⚡**\n"
-        "**🤖I Am (Not At All 😏) Simple Bot \n🔀 I can Convert Your Links To Tnlink \n📁 Send ME Image or Text_Message \n🔃 Convert All Links To Your Links \n👨🏻‍💻 I Was Developed  @Half_Intelligent_2 \n©️ Powered By @DuLinkUpdate**")
+        "**🤖I Am (Not At All 😏) Simple Bot \n🔀 I can Convert Your Links To Tnlink \n📁 Send ME Image or Text_Message \n🔃 Convert All Links To Your Links \n👨🏻‍💻 I Was Developed  @Half_Intelligent_2 \n©️ Powered By @TNlinkTN**")
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
@@ -46,7 +46,7 @@ async def start(bot, message):
 async def start(bot, message):
     await message.reply(
         f"**Hey, {message.chat.first_name}!**\n\n"
-        "**Our Plans just like this 💰 \n\nFor 30 Dayes = 2$ \nFor 90 Dayes= 5$ \nFor 180 Dayes = 8$ \nFor 365 Dayes = 15$ \n\n If you Want to Buy Our Bot Subscription Contact \n@Half_Intelligent_2 | @Y76D42**")
+        "**Our Plans just like this 💰 \n\nFor 30 Dayes = 2$ \nFor 90 Dayes= 5$ \nFor 180 Dayes = 8$ \nFor 365 Dayes = 15$ \n\n If you Want to Buy Our Bot Subscription Contact \n@Half_Intelligent_2**")
     
 @bot.on_message(filters.text & filters.private)
 async def pdisk_uploader(bot, message):
