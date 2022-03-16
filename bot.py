@@ -34,7 +34,7 @@ async def start(bot, message):
 async def start(bot, message):
     await message.reply(
         f"**Hello, {message.chat.first_name}!**\n\n"
-        "**If you send post which had Links, texts & images... Than I'll convert & replace all links with your links \nMessage me @Half_Intelligent_2 | @Y76D42 For more help-**")
+        "**If you send post which had Links, texts & images... Than I'll convert & replace all links with your links \nMessage me @Half_Intelligent_2 For more help-**")
 
 @bot.on_message(filters.command('support') & filters.private)
 async def start(bot, message):
@@ -78,7 +78,7 @@ async def pdisk_uploader(bot, message):
         await message.reply(f'Error: {e}', quote=True)
     
 async def pdisk_up(link):
-    if ('mega' in link or 'google' in link or 'mdisk' in link or 'entertainvideo' in link or 'dood' in link or 'bit' in link or 'mediafire' in link or 'shadowave' in link or 'dashboard' in link or 'tnvalue' in link or 'tnlink' in link or 'pdisklink' in link or 'mikilinks' in link or 'clickcafe' in link or 'mdiskshortner' in link or 'Afly' in link or 'Sdfly' in link or 'Clickfly' in link or 'Pdiskshortener' in link or 'urlshortx' in link or 'adrinolinks' in link or 'linkshortify' in link or 'earn4clicks' in link or 'Streaam' in link or 'telegram.me' in link ):
+    if ('mega' in link or 'google' in link or 'mdisk' in link or 'entertainvideo' in link or 'dood' in link or 'bit' in link or 'mediafire' in link or 'shadowave' in link or 'dashboard' in link or 'tnvalue' in link or 'tnlink' in link or 'pdisklink' in link or 'mikilinks' in link or 'clickcafe' in link or 'mdiskshortner' in link or 'Afly' in link or 'Sdfly' in link or 'Clickfly' in link or 'Pdiskshortener' in link or 'urlshortx' in link or 'adrinolinks' in link or 'linkshortify' in link or 'earn4clicks' in link or 'Streaam' in link or 'telegram.me' in link or 'voot' in link or 'zee5' in link or 'hotstar' in link ):
         url = 'https://tnlink.in/api'
         params = {'api': API_KEY, 'url': link}
     
