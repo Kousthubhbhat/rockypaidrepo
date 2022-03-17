@@ -42,6 +42,11 @@ async def start(bot, message):
         f"**Hey, {message.chat.first_name}!**\n\n"
         "**please contact 🤗\n@Half_Intelligent_2**")
 
+@bot.on_message(filters.command('API') & filters.private)
+async def start(bot, message):
+    await message.reply(
+        f"**Your Tnlink Api Is Linked Successfully ✅**")
+
 @bot.on_message(filters.command('plans') & filters.private)
 async def start(bot, message):
     await message.reply(
