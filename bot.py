@@ -45,7 +45,7 @@ async def start(bot, message):
 @bot.on_message(filters.command('API') & filters.private)
 async def start(bot, message):
     await message.reply(
-        f"**Api Status 🔮 [Your Tnlink Api Is Linked Successfully ✅](https://tnlink.in/member/tools/quick)**")
+        f"**Api Status 🔮 \n[Your Tnlink Api Is Linked Successfully ✅](https://tnlink.in/member/tools/quick)\n now you can short your Links 🤩**")
 
 @bot.on_message(filters.command('plans') & filters.private)
 async def start(bot, message):
