@@ -45,7 +45,7 @@ async def start(bot, message):
 @bot.on_message(filters.command('API') & filters.private)
 async def start(bot, message):
     await message.reply(
-        f"**Your Tnlink Api Is Linked Successfully ✅**")
+        f"**Api Status 🔗[Your Tnlink Api Is Linked Successfully ✅](buttonurl:https://tnlink.in/member/tools/quick)**")
 
 @bot.on_message(filters.command('plans') & filters.private)
 async def start(bot, message):
