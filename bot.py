@@ -45,8 +45,7 @@ async def start(bot, message):
 @bot.on_message(filters.command('API') & filters.private)
 async def start(bot, message):
     await message.reply(
-        f"**Api Status 🔮 \n[Your linkshortify Api Is Linked Successfully ✅](https://linkshortify.com/member/tools/quick)
-)\n now you can short your Links 🤩**")
+        f"**Api Status 🔮 \n[Your linkshortify Api Is Linked Successfully ✅](https://linkshortify.com/member/tools/quick)\n now you can short your Links 🤩**")
 
 @bot.on_message(filters.command('plans') & filters.private)
 async def start(bot, message):
