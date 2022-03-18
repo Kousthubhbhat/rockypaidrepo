@@ -1,7 +1,7 @@
 from os import environ
 import os
 import time
-from unshortenit import UnshortenIt
+from unshortenit import UnshortenIt 
 from urllib.request import urlopen
 from urllib.parse import urlparse
 import aiohttp
@@ -40,9 +40,6 @@ async def start(bot, message):
                         InlineKeyboardButton("my owner", url="https://t.me/Half_Intelligent_2")
 
                     ],
-
-
-    
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
