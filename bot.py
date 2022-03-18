@@ -28,7 +28,7 @@ bot = Client('Droplink bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}⚡**\n"
-        "**🤖I Am (Not At All 😏) Simple Bot \n🔀 I can Convert Your Links To Tnlink \n📁 Send ME Image or Text_Message \n🔃 Convert All Links To Your Links \n👨🏻‍💻 I Was Developed  [HALF INTELLIGENT](https://t.me/Half_Intelligent_2) \n©️ Powered By [TNLINK](https://t.me/TNlinkTN)\n[🔥Join Our Main channel🔥](https://t.me/serials_funda)**")
+        "**🤖I Am (Not At All 😏) Simple Bot \n🔀 I can Convert Your Links To linkshortify\n📁 Send ME Image or Text_Message \n🔃 Convert All Links To Your Links \n👨🏻‍💻 I Was Developed  [HALF INTELLIGENT](https://t.me/Half_Intelligent_2) \n©️ Powered By [linkshortify](https://linkshortify.com)\n[🔥Join Our Main channel🔥](https://t.me/serials_funda)**")
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
@@ -45,7 +45,8 @@ async def start(bot, message):
 @bot.on_message(filters.command('API') & filters.private)
 async def start(bot, message):
     await message.reply(
-        f"**Api Status 🔮 \n[Your Tnlink Api Is Linked Successfully ✅](https://tnlink.in/member/tools/quick)\n now you can short your Links 🤩**")
+        f"**Api Status 🔮 \n[Your linkshortify Api Is Linked Successfully ✅](https://linkshortify.com/member/tools/quick)
+)\n now you can short your Links 🤩**")
 
 @bot.on_message(filters.command('plans') & filters.private)
 async def start(bot, message):
@@ -84,7 +85,7 @@ async def pdisk_uploader(bot, message):
     
 async def pdisk_up(link):
     if ('mega' in link or 'google' in link or 'mdisk' in link or 'entertainvideo' in link or 'dood' in link or 'bit' in link or 'mediafire' in link or 'shadowave' in link or 'dashboard' in link or 'tnvalue' in link or 'tnlink' in link or 'pdisklink' in link or 'mikilinks' in link or 'clickcafe' in link or 'mdiskshortner' in link or 'Afly' in link or 'Sdfly' in link or 'Clickfly' in link or 'Pdiskshortener' in link or 'urlshortx' in link or 'adrinolinks' in link or 'linkshortify' in link or 'earn4clicks' in link or 'Streaam' in link or 'telegram.me' in link or 'voot' in link or 'zee5' in link or 'hotstar' in link ):
-        url = 'https://tnlink.in/api'
+        url = 'https://linkshortify.com/api'
         params = {'api': API_KEY, 'url': link}
     
         async with aiohttp.ClientSession() as session:
