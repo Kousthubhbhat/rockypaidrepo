@@ -30,8 +30,7 @@ async def start(bot, message):
         f"**Hi {message.chat.first_name}⚡**\n"
         "**🤖I Am (Not At All 😏) Simple Bot \n🔀 I can Convert Your Links To linkshortify\n📁 Send ME Image or Text_Message \n🔃 Convert All Links To Your Links \n👨🏻‍💻 I Was Developed  [HALF INTELLIGENT](https://t.me/Half_Intelligent_2) \n©️ Powered By [linkshortify](https://linkshortify.com)**")
                 reply_markup=InlineKeyboardMarkup(
-
-                [
+               [
 
                     [
 
@@ -40,6 +39,7 @@ async def start(bot, message):
                         InlineKeyboardButton("my owner", url="https://t.me/Half_Intelligent_2")
 
                     ],
+                ],)
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
