@@ -28,7 +28,7 @@ bot = Client('Droplink bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}⚡**\n"
-        "**🤖I Am (Not At All 😏) Simple Bot \n🔀 I can Convert Your Links To linkshortify\n📁 Send ME Image or Text_Message \n🔃 Convert All Links To Your Links \n👨🏻‍💻 I Was Developed  [HALF INTELLIGENT](https://t.me/Half_Intelligent_2) \n©️ Powered By [linkshortify](https://linkshortify.com)\n[🔥Join Our Main channel🔥](https://t.me/serials_funda)**")
+        "**🤖I Am (Not At All 😏) Simple Bot \n🔀 I can Convert Your Links To linkshortify\n📁 Send ME Image or Text_Message \n🔃 Convert All Links To Your Links \n👨🏻‍💻 I Was Developed  [HALF INTELLIGENT](https://t.me/Half_Intelligent_2) \n©️ Powered By [linkshortify](https://linkshortify.com)\n[ InlineKeyboardButton(🔮Join Our Channel🔮, url=https://t.me/serials_funda)  ]**")
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
